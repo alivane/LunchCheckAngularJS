@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: #a0755f;
+}
+
+h1 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 60px;
+  color: #fbf8ed;
+}
+
+p {
+  font-family: 'Special Elite';
+  font-size: 30px;
+  color: white;
+}
+input {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  color: #cc773f;
+}
+
+button {
+  padding: 20px;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: #cbcbcb;
+  border: 40px;
+  border-radius: 30%;
+  border: 10px solid #EEFFF6; /* Green */
+  color: black;
+
+}
+.msg {
+  padding: 20px;
+  font-family: 'Special Elite';
+  font-size: 40px;
+  font-family: 'Frijole', cursive;
+  color: white;
+}

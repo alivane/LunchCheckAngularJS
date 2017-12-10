@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Frijole|Montserrat+Alternates|Special+Elite" rel="stylesheet">
   <link href="styles.css" type="text/css" rel="stylesheet">
   <script src="angular.min.js"></script>
   <script src="app.js"></script>
@@ -11,7 +12,8 @@
 </head>
 <body>
   <div ng-controller="MsgController">
-    <p>Insert elements of your lunch</p>
+    <h1>Lunch Check !!!</h1>
+    <p>Enter the items you eat at lunchtime, each item separated by a comma ","</p>
     <input type="text" ng-model="value">
     <button ng-click="clickVerify(value)">Check If Too Much</button>
     <div class="msg">{{msg}}</div>
