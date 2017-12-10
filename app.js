@@ -16,9 +16,30 @@
         var newString = verifyString(arrayItem);
         if(newString != "") count++;
       };
-      if(count > 0 && count <= 3) $scope.msg = "Enjoy!"
-      else if(count > 3) $scope.msg = "Too much!"
-      else $scope.msg = "Please enter data first";
+      if(count > 0 && count <= 3){
+        $scope.colorStyle = {
+              "color" : "#029F12",
+              "background-color": "#D1FFD6",
+              "margin-top" : "30px",
+              "border-radius": "100%"
+          }
+         $scope.msg = "Enjoy!"
+       }
+      else if(count > 3) {
+        $scope.colorStyle = {
+              "color" : "#AC0B30",
+              "background-color": "#FFE1E8",
+              "margin-top" : "30px",
+              "border-radius": "100%"
+          }
+        $scope.msg = "Too much!"
+      }
+      else {
+        $scope.colorStyle = {
+              "color" : "white"
+          }
+        $scope.msg = "Please enter data first";
+      }
     }
 
     function verifyString(string) {
