@@ -43,4 +43,6 @@ button {
   font-size: 40px;
   font-family: 'Frijole', cursive;
   color: white;
+  width: 40%;
+  margin: 0 auto;
 }
